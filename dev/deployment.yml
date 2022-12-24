@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: rds-service
-        image: navedamanat/rds-service:latest 
+        image: navedamanat/rds-service:v4
 
         imagePullPolicy: IfNotPresent
         ports:
